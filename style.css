@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url(images/clights.webp); */
+}
+
+
+.hero {
+    width: 720px;
+    height: 343px;
+    background-image: url(images/charminar2.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero h1 {
+    background-color: rgb(21, 21, 68);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.hero p {
+    background-color: rgb(43, 113, 154);
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+.content {
+    background-color: rgb(229, 255, 246);
+    width: 720px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0 20px 0;
+
+}
+
+.places {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.places img {
+    border-radius: 1000px;
+}
+
+.h-city,
+.tank-bund,
+.stadium {
+    width: 198px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+
+}
+
+.h-city img,
+.tank-bund img,
+.stadium img {
+    width: 150px;
+    height: 150px;
+}
+
+.content h3 {
+    font-size: small;
+    min-height: 50px;
+    font-weight: 700;
+    color: #1D3557;
+}
+
+.content p {
+    font-size: x-small;
+    font-weight: 400;
+    color: #1D3557;
+}
+.content h2{
+    color: #1D3557;
+    font-weight: 700;
+}
+
+.guide {
+    background-color: white;
+    width: 400px;
+    border-bottom: 10px solid #1D3557;
+    border-radius: 10px;
+    display: flex;
+    /* align-items: center; */
+    background-color: #A8DADC;
+    gap:20px;
+    padding: 0 10px 0 10px;
+    margin:10px 0 10px 0;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    flex: 1;
+    padding:30px 0 30px 0;
+}
+.g-img{
+    width: 180px;
+    height: auto;
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+}
+.about p{
+    font-style: italic;
+    color: #1D3557;
+    font-weight: 400;
+}
+.about h3{
+    font-weight: 700;
+    color: #1D3557;
+}
+.about span{
+    font-weight: 700;
+    color: #1D3557;
+
+}
